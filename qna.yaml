@@ -1,0 +1,27 @@
+version: 3
+domain: humor
+created_by: Yaser-Al-Hameedi
+seed_examples:
+  - context: |
+      "Knock, knock."
+    questions_and_answers:
+      - question: "Who’s there?"
+        answer: "Atch."
+      - question: "Atch who?"
+        answer: "Bless you!"
+  - context: |
+      "Knock, knock."
+    questions_and_answers:
+      - question: "Who’s there?"
+        answer: "Boo."
+      - question: "Boo who?"
+        answer: "Don’t cry, it’s just a joke!"
+
+document_outline: |
+  A collection of interactive knock-knock jokes formatted for training conversational models.
+
+document:
+  repo: https://github.com/Yaser-Al-Hameedi/knowledge_contributions
+  commit: 9c4b0fb45200878061ae761ae3a90bb85b2b2ca2
+  patterns:
+    - knock_knock_jokes.md
