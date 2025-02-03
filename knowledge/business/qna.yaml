@@ -58,6 +58,6 @@ seed_examples:
 
 document:
   repo: https://github.com/Yaser-Al-Hameedi/knowledge_contributions
-  commit: 9fa8508
+  commit: 6172652f4bc160b34f538e3acfbb4eb9eb5f7d9b
   patterns:
     - knowledge/business/gekko_corp.md
