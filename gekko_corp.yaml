@@ -1,0 +1,63 @@
+version: 2
+domain: business
+created_by: Yaser-Al-Hameedi
+task_description: |
+  Teach the model what Gekko Corporation is, its partnerships, and its primary business operations.
+
+seed_examples:
+  - question: "What is Gekko Corporation?"
+    answer: |
+      Gekko Corporation is a **Value-Added Reseller (VAR)** specializing in selling and implementing Splunk software.
+      Splunk helps businesses analyze machine-generated big data for **IT operations, security, business analytics, and IoT**.
+      Additionally, Gekko is a **Silver Partner** with IBM, selling **IBM WatsonX solutions** alongside its Splunk offerings.
+
+  - question: "What services does Gekko Corporation provide?"
+    answer: |
+      Gekko Corporation provides services related to **IT operations, security, business analysis, and the Internet of Things (IoT)**.
+      Their expertise lies in implementing **Splunk and IBM WatsonX solutions** to help businesses unlock insights from large datasets.
+
+  - question: "What is Gekko Corporation's partnership with IBM?"
+    answer: |
+      Gekko Corporation is an **IBM Silver Partner**, offering **IBM WatsonX solutions** to businesses alongside its Splunk services.
+      This partnership allows Gekko to provide **AI-driven insights, cloud analytics, and machine learning capabilities** to its clients.
+
+  - question: "What is Gekko Corporation's business model?"
+    answer: |
+      Gekko operates as a **Value-Added Reseller (VAR)**, selling and implementing **Splunk and IBM WatsonX solutions**.
+      They provide additional **consulting, integration, and support services** to help businesses maximize the value of these technologies.
+
+  - question: "Who are some of Gekko Corporation's clients?"
+    answer: |
+      Gekko Corporation has sold solutions to **major enterprise clients**, including:
+      - **Costco**: Implemented Splunk for **security monitoring and threat detection**.
+      - **Comcast**: Provided **business analytics solutions** using Splunk and IBM WatsonX.
+      - **GCI Telecom**: Delivered **IT operations solutions** to improve network performance and reliability.
+
+  - question: "How does Gekko Corporation help businesses?"
+    answer: |
+      Gekko helps businesses by enabling them to **analyze and interpret machine-generated data efficiently**.
+      This supports **better decision-making, enhances cybersecurity, optimizes IT operations, and improves overall business performance**.
+
+  - question: "Which industries does Gekko Corporation serve?"
+    answer: |
+      Gekko serves multiple industries, including **finance, healthcare, telecommunications, manufacturing, and retail**.
+      Their solutions help businesses **manage, analyze, and secure large datasets** across various sectors.
+
+  - question: "What makes Gekko Corporation different from its competitors?"
+    answer: |
+      Gekko Corporation differentiates itself by:
+      - **Expertise in both Splunk and IBM WatsonX solutions**.
+      - **Deep industry knowledge**, allowing for tailored solutions.
+      - **Strong client relationships** with major enterprises like Costco, Comcast, and GCI Telecom.
+      - **Providing end-to-end services**, including consulting, implementation, and ongoing support.
+
+  - question: "What are some of Gekko Corporation's achievements?"
+    answer: |
+      Gekko has received **industry recognition** for its **Splunk and IBM WatsonX implementations**.
+      They have successfully delivered **high-impact data analytics solutions** to **Fortune 500 companies**, improving security, business intelligence, and IT efficiency.
+
+document:
+  repo: https://github.com/Yaser-Al-Hameedi/knowledge_contributions
+  commit: 9fa8508
+  patterns: 87751216b7be10960ca95fec9804d3f58d1bb1fd
+    - gekko_corp.md
