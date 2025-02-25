@@ -724,7 +724,7 @@ seed_examples:
 
 document:
   repo: https://github.com/Yaser-Al-Hameedi/knowledge_contributions
-  commit: aefafefdf8a3d1a3926325f45ad21ca4cce35fea
+  commit: 86f0a34a19279cf4e80c1bbb317115dcd7b45249
   patterns:
     - taxonomy/knowledge/quran_verses/quran_verses.md
 
